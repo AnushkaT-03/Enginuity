@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Room - Enginuity</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #051F20;
+        }
+        header {
+            background-color: #0B2B26;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        .chat-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 80vh;
+            margin: 20px auto;
+            max-width: 600px;
+            background: #163832;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .chat-window {
+            flex-grow: 1;
+            padding: 10px;
+            overflow-y: auto;
+            border-bottom: 1px solid #235347;
+        }
+        .message {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            max-width: 70%;
+        }
+        .student {
+            background-color: #8EB69B;
+            align-self: flex-start;
+        }
+        .teacher {
+            background-color: #DAF1DE;
+            align-self: flex-end;
+        }
+        .chat-input {
+            display: flex;
+            padding: 10px;
+            background: #235347;
+            border-top: 1px solid #163832;
+        }
+        .chat-input textarea {
+            flex-grow: 1;
+            resize: none;
+            padding: 10px;
+            border: 1px solid #8EB69B;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .chat-input button {
+            margin-left: 10px;
+            padding: 10px 15px;
+            background-color: #8EB69B;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .chat-input button:hover {
+            background-color: #DAF1DE;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Doubt Chat</h1>
+        <p>Collaborate to solve doubts and schedule support sessions</p>
+    </header>
+    <div class="chat-container">
+        <div class="chat-window" id="chatWindow">
+            <!-- Chat Messages -->
+            <div class="message student">
+                Student: I have a doubt about differential equations. Can you explain it?
+            </div>
+            <div class="message teacher">
+                Teacher: Sure! Let’s discuss this in the Support Room. How about tomorrow at 4 PM?
+            </div>
+            <div class="message student">
+                Student: That works for me. Thank you!
+            </div>
+        </div>
+        <div class="chat-input">
+            <textarea id="chatInput" placeholder="Type your message here..."></textarea>
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+    <script>
+        function sendMessage() {
+            const chatWindow = document.getElementById('chatWindow');
+            const chatInput = document.getElementById('chatInput');
+            
+            if (chatInput.value.trim()) {
+                // Add student's message to the chat
+                const studentMessage = document.createElement('div');
+                studentMessage.classList.add('message', 'student');
+                studentMessage.textContent = `Student: ${chatInput.value}`;
+                chatWindow.appendChild(studentMessage);
+                
+                // Simulate teacher's response
+                setTimeout(() => {
+                    const teacherMessage = document.createElement('div');
+                    teacherMessage.classList.add('message', 'teacher');
+                    teacherMessage.textContent = 'Teacher: Let me check my schedule and get back to you.';
+                    chatWindow.appendChild(teacherMessage);
+                    
+                    chatWindow.scrollTop = chatWindow.scrollHeight;
+                }, 1000);
+
+                chatInput.value = '';
+                chatWindow.scrollTop = chatWindow.scrollHeight;
+            }
+        }
+    </script>
+</body>
+</html>
