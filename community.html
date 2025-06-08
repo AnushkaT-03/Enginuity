@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Forum - Enginuity</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #051F20;
+        }
+        header {
+            background-color: #0B2B26;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #163832;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+        }
+        .forum {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .forum h3 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .forum .post {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #235347;
+            border-radius: 8px;
+            background-color: #DAF1DE;
+        }
+        .forum .post h4 {
+            margin: 0 0 10px;
+        }
+        .forum .post p {
+            margin: 0 0 10px;
+        }
+        .forum .post button {
+            background-color: #8EB69B;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .forum .post button:hover {
+            background-color: #0B2B26;
+        }
+        .new-post {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #DAF1DE;
+            border: 1px solid #235347;
+            border-radius: 8px;
+        }
+        .new-post textarea {
+            width: 100%;
+            height: 100px;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #235347;
+        }
+        .new-post button {
+            background-color: #8EB69B;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .new-post button:hover {
+            background-color: #0B2B26;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #8EB69B;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Community Forum</h1>
+        <p>Connect, discuss, and collaborate with peers and teachers.</p>
+    </header>
+    <nav>
+        <a href="Main Page.html">Home</a>
+        <a href="resources.html">Resources</a>
+        <a href="doubt-room.html">Doubt Room</a>
+        <a href="forum.html">Forum</a>
+    </nav>
+    <div class="container">
+        <div class="forum">
+            <h3>Discussion Threads</h3>
+            <!-- Example Posts -->
+            <div class="post">
+                <h4>How do I solve this equation? (Math Doubt)</h4>
+                <p>Can someone explain the solution for this second-order equation?</p>
+                <button>Reply</button>
+            </div>
+            <div class="post">
+                <h4>Best resources for C Programming</h4>
+                <p>Looking for recommended tutorials or textbooks for beginners.</p>
+                <button>Reply</button>
+            </div>
+            <div class="post">
+                <h4>Group Study on Thermodynamics</h4>
+                <p>Anyone interested in forming a study group for thermodynamics? Let's discuss timings.</p>
+                <button>Reply</button>
+            </div>
+        </div>
+        <div class="new-post">
+            <h3>Create a New Thread</h3>
+            <textarea placeholder="Write your discussion topic or doubt here..."></textarea>
+            <button>Post</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Enginuity | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
