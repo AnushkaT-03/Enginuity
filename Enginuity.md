@@ -62,7 +62,6 @@ This project is **not a final product** – it is a **rough idea** to experiment
 
 ## ✨ Future Goals
 
-- Rename `Main page.html` → `index.html` for GitHub Pages support.  
 - Add **JavaScript** for real interactivity.  
 - Improve **responsiveness** (mobile/tablet support).  
 - Replace placeholders with **working features**.  
