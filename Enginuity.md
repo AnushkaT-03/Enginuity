@@ -29,8 +29,9 @@ Once GitHub Pages is enabled, the preview will be available at:
 ## 📂 File Structure
 
 ---
-Enginuity/
-│
+Enginuity - 
+
+
 ├── Main page.html        # Main landing page (should be renamed to index.html for GitHub Pages)
 
 ├── community.html        # Community hub page
