@@ -1,27 +1,32 @@
-# 🌐 Enginuity
+# 🌐 Enginuity (Work-in-Progress)
 
-Enginuity is a personal portfolio-style website designed to serve as a **one-stop destination for students**.  
-The website was built entirely using **HTML and CSS**, with assistance from **AI tools** to generate and refine its structure and design.
-
----
-
-## 📌 Features
-
-- 🎨 **Static Website** – Pure HTML and CSS (no backend).
-- 🏠 **Home Page** (`index.html` / Main Page) – Acts as the central hub.
-- 👥 **Community Page** (`community.html`) – A section for collaboration and discussions.
-- 📚 **Resources Page** (`resources.html`) – Provides access to study materials and academic support.
-- 📅 **Schedule Pages** (`schedule.html` & `schedule2.html`) – Organized layouts for timetables and events.
-- 🛠 **Support Room Page** (`support-room.html`) – A place for connecting with peers and teachers for guidance.
+Enginuity is a **raw, rough idea of a student-focused website**.  
+It was created using **HTML and CSS** with the help of **AI tools**.  
+⚠️ Please note: **Not everything is working yet** – this is an **early draft** and mainly a **concept/demo project**.
 
 ---
 
-## 🚀 Live Demo
+## 📌 Features (Planned / Drafted)
 
-After enabling GitHub Pages, the project will be live here:  
+- 🎨 **Static Website** – Built only with HTML and CSS.  
+- 🏠 **Main Page** (`Main page.html`) – Central hub for navigation.  
+- 👥 **Community Page** – Placeholder for student collaboration.  
+- 📚 **Resources Page** – Concept for sharing study materials.  
+- 📅 **Schedule Pages** – Draft layouts for timetables/events.  
+- 🛠 **Support Room Page** – Idea for student–teacher support.  
+
+---
+
+## 🚀 Live Demo (Preview Only)
+
+Once GitHub Pages is enabled, the preview will be available at:  
 👉 **[Enginuity Website](https://anushkat-03.github.io/Enginuity/)**  
 
-*(If the link does not open yet, make sure GitHub Pages is enabled under repo → Settings → Pages)*
+*(Currently, this is a draft project – so the pages may not look or function properly yet)*  
+
+---
+
+## 📂 File Structure
 
 ---
 Enginuity/
@@ -33,3 +38,43 @@ Enginuity/
 ├── schedule2.html        # Schedule (version 2)
 ├── support-room.html     # Support and guidance page
 └── Enginuity.md          # Documentation/notes
+
+
+
+
+---
+
+## 🎯 Purpose of This Project
+
+This project is **not a final product** – it is a **rough idea** to experiment with:
+- Using **AI** to generate website layouts.  
+- Understanding basic **HTML & CSS** for a multi-page site.  
+- Hosting simple static sites with **GitHub Pages**.  
+
+---
+
+## ✨ Future Goals
+
+- Rename `Main page.html` → `index.html` for GitHub Pages support.  
+- Add **JavaScript** for real interactivity.  
+- Improve **responsiveness** (mobile/tablet support).  
+- Replace placeholders with **working features**.  
+- Consider using **modern frameworks** like React or Tailwind CSS.  
+
+---
+
+## 🙌 Acknowledgements
+
+- **AI Tools** – for helping generate the initial code structure.  
+- **GitHub Pages** – for free static hosting.  
+- Inspired by the idea of a **student resource & community hub**.  
+
+---
+
+## 📧 Contact
+
+Created by **AnushkaT-03**  
+🔗 https://github.com/AnushkaT-03
+
+
+
