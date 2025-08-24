@@ -32,11 +32,17 @@ Once GitHub Pages is enabled, the preview will be available at:
 Enginuity/
 │
 ├── Main page.html        # Main landing page (should be renamed to index.html for GitHub Pages)
+
 ├── community.html        # Community hub page
+
 ├── resources.html        # Study resources page
+
 ├── schedule.html         # Schedule (version 1)
+
 ├── schedule2.html        # Schedule (version 2)
+
 ├── support-room.html     # Support and guidance page
+
 └── Enginuity.md          # Documentation/notes
 
 
